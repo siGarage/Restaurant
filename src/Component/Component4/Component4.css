@@ -1,0 +1,46 @@
+.Component4{
+    display: flex;
+    flex-direction: row;
+}
+.Tick-Box{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.Tick-Box1{
+    width: 50%;
+}
+.Tick-Box2{
+    width: 50%;
+}
+.Component4-Box1{
+    width: 60%;
+    padding:50px 100px;
+}
+.Component4-Box2{
+    width: 40%;
+}
+@media only screen and (max-width:900px) {
+    .Component4{
+        
+        flex-direction: column-reverse;
+    }
+    .Component4-Box1{
+        width: 100%;
+        padding:50px 0px;
+    }
+    .Component4-Box2{
+        width: 100%;
+    }
+    .Tick-Box{
+        flex-direction:column;
+        
+    }
+    .Tick-Box1{
+        width: 100%;
+    }
+    .Tick-Box2{
+        width: 100%;
+    }
+  }

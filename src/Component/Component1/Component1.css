@@ -1,0 +1,39 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 0px;
+    position: relative;
+}
+
+.BookTable{
+  padding: 10px 20px;
+}
+
+.NavLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .NavLinks{
+       display: none;
+        
+    }
+    
+    .BookTable{
+      padding: 10px 7px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .circular-box{
+       display: none;
+        
+    }
+    
+  }

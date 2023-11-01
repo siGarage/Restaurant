@@ -1,0 +1,92 @@
+/* .card-body{
+    background: linear-gradient(180deg, grey, black);
+  }
+    
+    .projects{
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+    }
+    .curated{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .tiles{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center
+    }
+    .content7{
+      margin:0px 100px;
+    }
+    .react-multiple-carousel__arrow--left {
+    
+    background: #4FC7EC;
+    border-radius: 0;
+    }
+  
+    .react-multiple-carousel__arrow--right {
+      
+      background: #65C891;
+    border-radius: 0;
+      }
+    @media only screen and (max-width:900px) {
+      .tiles{
+        flex-direction:column;
+        
+      }
+    
+      .projects{
+        display:flex;
+        flex-direction:column;
+      }
+    
+      .curated{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .content7{
+        margin:40px 0px;
+      }
+      
+    }
+    
+    
+     */
+
+     .carousel-inner {
+      height: 538px;
+    }
+
+    .Happy-Customer-Text{
+      padding: 0px 100px;
+    }
+    
+    .carousel-control-prev {
+      height: 50px;
+      left: unset !important;
+      position: fixed !important;
+      top: -5px !important;
+      right: 50%;
+      color: gray !important;
+    }
+    
+    .carousel-control-next {
+      height: 50px;
+      right: unset !important;
+      position: fixed !important;
+      top: -5px !important;
+      left: 50%;
+      color: gray !important;
+    }
+    @media only screen and (max-width:900px) {
+      .Component5-Image{
+        width: 300px;
+      }  
+      .Happy-Customer-Text{
+        padding: 0px 10px;
+      }
+    }
+    

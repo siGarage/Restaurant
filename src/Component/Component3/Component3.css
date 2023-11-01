@@ -1,0 +1,122 @@
+.Dishes{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+}
+.Dish-Price{
+    left: 60%;
+}
+.Welcome{
+    font-size: 60px;
+}
+.Component3-Box1-Image1{
+    height: 600px;
+}
+.Our-Favorite-Dishes{
+    font-size: 60px;
+}
+.Dish{
+    width: 25%;
+}
+.Dish-Card-Image{
+    left: 30%;
+}
+.Component3-Box{
+    flex-direction: row;
+}
+.Component3-text{
+    width: 30%;
+}
+.Component3-Box1{
+width: 60%;
+}
+.Component3-Box2{
+    width: 40%;  
+}
+.Image9{
+    left: 600px;
+}
+.Image7{
+    right: 300px;
+}
+.Image11{
+    left: 600px;
+}
+@media only screen and (max-width:900px) {
+    .Dishes{
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+    .Dish-Card{
+        width: auto;
+        margin: 50px 0px 0px 0px;;
+    }
+    .Image9{
+        left: 0px;
+    }
+    .Component3-text{
+        width: 60%;
+    }
+    .Image11{
+        left: 30px;
+    }
+    .Our-Favorite-Dishes{
+        font-size: 40px;
+    }
+    .Image6{
+        display: none;
+    }
+    .Component3-Box{
+        flex-direction: column;
+    }
+    .Welcome{
+        font-size: 40px;
+    }
+    .Image7{
+        right: 40px;
+    }
+    .Dish-Card-Image{
+        left: 40%;
+    }
+    
+    .Component3-Box1{
+        width: 100%;
+        }
+        .Component3-Box2{
+            width:auto;  
+        }
+        .Leaf{
+            display: none;
+        }
+        .Image12{display: none;}
+        .Image13{display: none;}
+  }
+
+  @media only screen and (max-width:600px) {
+    .Component3-Box1-Image1{
+        height: 400px;
+    }
+
+    .Dish-Price{
+        left: 70%;
+    }
+  }
+
+  @media only screen and (max-width:400px) {
+    
+    .Dish-Price{
+        left: 70%;
+    }
+  }
+
+  @media only screen and (max-width:900px) and (min-width:400px) {
+    .Dish-Price{
+        left: 60%;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    .Image8{
+        display: none;
+    }
+  }
